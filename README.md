@@ -6,17 +6,15 @@ selectively disclose JWT claims using Java. While it simplifies some aspects of 
 foundational understanding of the core concepts and functionalities involved.
 
 # Table of Contents
-- Features
-- Prerequisites
-- Installation
-- Usage
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
   1. Generating a JWT
   2. Verifying a JWT
   3. Selective Disclosure
   4. Enhanced JWT with Encrypted Hidden Claims
-- Security Considerations
-- Further Improvements
-- References
+- [References](#references)
 
 ## Features
 - **JWT Generation**: Create JSON Web Tokens with both disclosable and hidden claims.
