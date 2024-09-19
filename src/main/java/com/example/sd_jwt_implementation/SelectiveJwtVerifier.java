@@ -11,7 +11,7 @@ import java.util.List;
 public class SelectiveJwtVerifier {
     public static void main(String[] args) {
         // The JWT token generated previously
-        String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpc3N1ZXItZXhhbXBsZSIsInN1YiI6InVzZXIxMjMiLCJuYW1lIjoiQWxpY2UiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwic2FsYXJ5IjoiMTAwMDAwIiwiZGVwYXJ0bWVudCI6IkVuZ2luZWVyaW5nIiwiaWF0IjoxNzI2NzMyNTc3LCJleHAiOjE3MjY3MzYxNzd9.sY_SLZ2bMwW2GQS5ha6y4SAXA4H0Cjec3M9z5U8cxR8"; // Replace with your JWT
+        String token = "YOUR_GENERATED_ENHANCED_JWT_HERE"; // Replace with your JWT
 
         // Define the secret key used for signing
         String secret = "your-256-bit-secret"; // Same secret used for signing
